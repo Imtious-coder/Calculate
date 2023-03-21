@@ -1,3 +1,4 @@
+/* eslint-disable no-eval */
 import React, { useState } from "react";
 
 const Index = () => {
@@ -26,7 +27,7 @@ const Index = () => {
   };
   return (
     <>
-      <section className="container d-flex justify-content-center align-items-center mt-lg-5 pt-lg-5">
+      <div className="container d-flex justify-content-center align-items-center mt-lg-5 pt-lg-5">
         <div className="row calculator mt-5">
           <div className="col-12">
             <input
@@ -123,7 +124,7 @@ const Index = () => {
             </button>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };
